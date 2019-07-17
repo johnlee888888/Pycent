@@ -1,4 +1,4 @@
-#!"C:\Users\ydboo\OneDrive\ÎÄµµ\Python network\venv\Scripts\python.exe" -x
+#!"C:\Users\ydboo\OneDrive\ï¿½Äµï¿½\Python_network\venv\Scripts\python.exe" -x
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==19.0.3','console_scripts','pip3.7'
 __requires__ = 'pip==19.0.3'
 import re

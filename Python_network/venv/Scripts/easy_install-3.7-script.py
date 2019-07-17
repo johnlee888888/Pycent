@@ -1,4 +1,4 @@
-#!"C:\Users\ydboo\OneDrive\ÎÄµµ\Python network\venv\Scripts\python.exe" -x
+#!"C:\Users\ydboo\OneDrive\ï¿½Äµï¿½\Python_network\venv\Scripts\python.exe" -x
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==40.8.0','console_scripts','easy_install-3.7'
 __requires__ = 'setuptools==40.8.0'
 import re

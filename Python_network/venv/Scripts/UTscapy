@@ -1,12 +1,13 @@
-#!C:\Users\ydboo\OneDrive\文档\Python network\venv\Scripts\python.exe
+#!C:\Users\ydboo\OneDrive\文档\Python_network\venv\Scripts\python.exe
+
 
 #############################################################################
 ##                                                                         ##
-## scapy.py --- Interactive packet manipulation tool                       ##
-##              see http://www.secdev.org/projects/scapy/                  ##
-##              for more informations                                      ##
+## UTscapy.py --- Unit Tests with scapy                                    ##
+##                see http://www.secdev.org/projects/UTscapy/              ##
+##                for more informations                                    ##
 ##                                                                         ##
-## Copyright (C) Philippe Biondi <phil@secdev.org>                         ##
+## Copyright (C) 2005  Philippe Biondi <phil@secdev.org>                   ##
 ##                                                                         ##
 ## This program is free software; you can redistribute it and/or modify it ##
 ## under the terms of the GNU General Public License version 2 as          ##
@@ -14,12 +15,13 @@
 ##                                                                         ##
 ## This program is distributed in the hope that it will be useful, but     ##
 ## WITHOUT ANY WARRANTY; without even the implied warranty of              ##
-## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU       ##
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU        ##
 ## General Public License for more details.                                ##
 ##                                                                         ##
 #############################################################################
 
 
-from scapy.main import interact
+import sys
+from scapy.tools.UTscapy import main
 
-interact()
+exit(main(sys.argv[1:]))

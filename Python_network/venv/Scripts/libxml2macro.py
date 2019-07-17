@@ -1,4 +1,4 @@
-#!C:\Users\ydboo\OneDrive\文档\Python network\venv\Scripts\python.exe
+#!C:\Users\ydboo\OneDrive\文档\Python_network\venv\Scripts\python.exe
 
 import compiler
 import marshal, imp, os, stat, struct
