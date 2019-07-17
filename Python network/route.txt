@@ -1,0 +1,1 @@
+'Kernel IP routing table\nDestination     Gateway         Genmask         Flags Metric Ref    Use Iface\n0.0.0.0         172.20.10.1     0.0.0.0         UG    100    0        0 ens33\n172.20.10.0     0.0.0.0         255.255.255.240 U     100    0        0 ens33\n192.168.122.0   0.0.0.0         255.255.255.0   U     0      0        0 virbr0\n'
