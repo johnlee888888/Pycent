@@ -26,13 +26,13 @@ def udp_server(ip, port):
             if not data:
                 print('客户端退出!')
                 break
-
-            if md5_recv == md5_value.encode():
-                print('=' * 80)
-                print("{0:<30}:{1:<30}".format("数据来自于", str(addr)))
-                print("{0:<30}:{1:<30}".format("数据序号为", seq_id))
-                print("{0:<30}:{1:<30}".format("数据长度为", length))
-                print("{0:<30}:{1:<30}".format("数据内容为", str(pickle.loads(data))))
+            print(data, addr)
+            # if md5_recv == md5_value.encode():
+            #     print('=' * 80)
+            #     print("{0:<30}:{1:<30}".format("数据来自于", str(addr)))
+            #     print("{0:<30}:{1:<30}".format("数据序号为", seq_id))
+            #     print("{0:<30}:{1:<30}".format("数据长度为", length))
+            #     print("{0:<30}:{1:<30}".format("数据内容为", str(pickle.loads(data))))
 
         except KeyboardInterrupt:
             sys.exit()

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="root@192.168.107.128:22" autoUploadExternalChanges="true" showNewOnSourceInSync="false" showNewOnTargetInSync="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@10.1.1.99:22" autoUploadExternalChanges="true" showNewOnSourceInSync="false" showNewOnTargetInSync="false">
     <serverData>
+      <paths name="root@10.1.1.99:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/Desktop/Python_Net" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="root@192.168.107.128:22">
         <serverdata>
           <mappings>

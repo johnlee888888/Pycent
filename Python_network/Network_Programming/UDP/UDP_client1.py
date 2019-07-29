@@ -26,11 +26,13 @@ def udp_send_data(ip, port, data_list):
         m.update(str(x).encode())
         check = m.hexdigest()
         md5 = check.encode()
+
         s.sendto(struct.pack('40s12s32s', send_data, header, md5), address)
+
         seq_id += 1
     s.close()
 
 
 if __name__ == '__main__':
-    user_data = ['乾颐堂', [1, 'qytang', 3], {'qytang': 1, 'test': 3}]
+    user_data = ['哈哈哈', [1, 'hello', 3], {'handsome': 1, 'test': 3}]
     udp_send_data('192.168.107.1', 6666, user_data)
